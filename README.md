@@ -34,6 +34,6 @@ Axioms: `propext`, `Classical.choice`, `Quot.sound`.
 
 ## Credits
 
-Mathlib; SAIR's `AC.lean`, move specification and S01 puzzle strings. J. P. Gustafson's ACC-P000016 ([commit 2b153feb](https://github.com/magicone2571/ac-tail-bound-lean-/tree/2b153febfafe400f6d931c5e33686af0473154ff)) was a reference while writing the Lean; the name `expQ` comes from it.
+Mathlib; SAIR's `AC.lean`, move specification and S01 puzzle strings. J. P. Gustafson's ACC-P000016 ([commit 2b153feb](https://github.com/magicone2571/ac-tail-bound-lean-/tree/2b153febfafe400f6d931c5e33686af0473154ff)) was a reference while writing the Lean.
 
 memcon.ai · Apache-2.0
