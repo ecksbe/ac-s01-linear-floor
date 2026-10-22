@@ -11,9 +11,7 @@ Codes 0–5 act on the rows by one elementary row operation (`rowAct`); codes 6�
 
 `three_nonconj`: every route from `S01 n` to (x, y) has at least three moves with codes 0–5.
 The start rows are (−1, 1) and (0, −1), and no sequence of at most two row operations reaches
-the identity rows; we check the at most 1 + 14 + 14² sequences by cases. The exponent-matrix
-budget is the matrix part of T00156's tail bound (`TailBound.lean`, `expQ_move`,
-`matrix_bound`); the definitions and proofs here are our own.
+the identity rows; we check the at most 1 + 14 + 14² sequences by cases.
 -/
 
 namespace Floor

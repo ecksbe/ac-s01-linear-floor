@@ -15,8 +15,7 @@ import Mathlib.Data.Fintype.Fin
 
 Words are elements of `FreeGroup`, so free reduction is built in. `apply_sound` shows that every
 code is a finite sequence of official `AC.Step`s on `toRel p`. Codes 3 and 5 use three steps
-(invert the other relator, multiply, restore), as T00156's README also notes; here the move table
-and all proofs are our own.
+(invert the other relator, multiply, restore).
 -/
 
 namespace Floor

@@ -14,9 +14,6 @@ reduced length (`short_iff_norm_le`), but the list form avoids any reduced-word 
 * `H_apply_conj`: a code in 6–13 conjugates by one letter `g`, and `u (g r g⁻¹) u⁻¹ = (u g) r (u g)⁻¹`.
 * `route_mem` (★): along a route to (x, y) with `c` conjugation moves, `x, y ∈ H R c`.
   No minimum over radii is ever taken.
-
-The radius-zero analogue (`closure_move`, Nielsen moves preserve ⟨r0, r1⟩) is in T00156
-`TailBound.lean`; the proofs here are our own.
 -/
 
 namespace Floor

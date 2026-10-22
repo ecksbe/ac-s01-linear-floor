@@ -24,8 +24,7 @@ below `c`, so `A` fixes them pointwise. Then:
 * hence every generator `u r u⁻¹` of `H (S01 n) k` fixes `0` (`conj_fix`), while `ψ y` moves
   `0` to `1`.
 
-Mathlib supplies `FreeGroup.lift` (the universal property) and `Equiv.Perm`; the action and
-all proofs are our own.
+Mathlib supplies `FreeGroup.lift` (the universal property) and `Equiv.Perm`.
 -/
 
 namespace Floor
